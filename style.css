@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0f0f0f;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 30px;
+  background: #111;
+}
+
+section {
+  padding: 20px;
+}
+
+#chatbot {
+  background: #111;
+  margin: 20px;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+#chatBox {
+  height: 300px;
+  overflow-y: auto;
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+#chatBox p {
+  margin: 5px 0;
+}
+
+#chatBox p:nth-child(odd) {
+  color: #000; /* user messages */
+}
+
+#chatBox p:nth-child(even) {
+  color: #0077cc; /* bot messages */
+}
+
+input {
+  width: 70%;
+  padding: 8px;
+}
+
+button {
+  padding: 8px;
+  background: white;
+  border: none;
+  cursor: pointer;
+}
