@@ -1,58 +1,101 @@
 body {
-  font-family: Arial, sans-serif;
-  background: #0f0f0f;
-  color: white;
+  font-family: "Georgia", serif;
+  background-color: #0b0b0b;
+  color: #e6e1d8;
   margin: 0;
-  padding: 0;
+  line-height: 1.7;
 }
 
 header {
   text-align: center;
-  padding: 30px;
-  background: #111;
+  padding: 50px 20px;
+  background: linear-gradient(180deg, #0f0f0f, #141414);
+  border-bottom: 1px solid #333;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+}
+
+header p {
+  color: #b8b2a8;
+  font-style: italic;
+}
+
+main {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px 20px;
 }
 
 section {
-  padding: 20px;
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-size: 1.6rem;
+  border-bottom: 2px solid #444;
+  padding-bottom: 6px;
+  margin-bottom: 20px;
+  color: #f1ede4;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
 }
 
 #chatbot {
-  background: #111;
-  margin: 20px;
-  padding: 15px;
+  background-color: #121212;
+  padding: 20px;
   border-radius: 8px;
+  border: 1px solid #333;
 }
 
 #chatBox {
-  height: 300px;
+  height: 280px;
   overflow-y: auto;
-  background-color: #f9f9f9;
-  padding: 10px;
+  background-color: #f3efe6;
+  color: #000;
+  padding: 12px;
   margin-bottom: 10px;
-  font-family: Arial, sans-serif;
   font-size: 14px;
+  border-radius: 4px;
 }
 
 #chatBox p {
-  margin: 5px 0;
-}
-
-#chatBox p:nth-child(odd) {
-  color: #000; /* user messages */
-}
-
-#chatBox p:nth-child(even) {
-  color: #0077cc; /* bot messages */
+  margin: 6px 0;
 }
 
 input {
   width: 70%;
   padding: 8px;
+  border-radius: 4px;
+  border: none;
+  font-family: inherit;
 }
 
 button {
-  padding: 8px;
-  background: white;
+  padding: 8px 14px;
+  margin-left: 5px;
+  background-color: #e6e1d8;
   border: none;
+  border-radius: 4px;
   cursor: pointer;
 }
+
+button:hover {
+  background-color: #d4cfc5;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #777;
+  border-top: 1px solid #333;
+}
+
